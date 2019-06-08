@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LaunchingActivity">
+
+    <Button
+        android:id="@+id/barCodeScanId"
+        android:layout_width="401dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Scan Bar code"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/faceDetectButton"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="36dp"
+        android:text="Detect Face"
+        app:layout_constraintEnd_toEndOf="@+id/barCodeScanId"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/barCodeScanId"
+        app:layout_constraintTop_toBottomOf="@+id/barCodeScanId" />
+
+    <Button
+        android:id="@+id/textRecognizeBtnId"
+        android:layout_width="392dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="36dp"
+        android:text="recognize text"
+        app:layout_constraintEnd_toEndOf="@+id/faceDetectButton"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="@+id/faceDetectButton"
+        app:layout_constraintTop_toBottomOf="@+id/faceDetectButton" />
+</android.support.constraint.ConstraintLayout>

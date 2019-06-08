@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        tools:context="com.studycseathome.androiddatabinding.MainActivity">
+
+        <TextView
+            android:id="@+id/tvHeading"
+            android:layout_width="364dp"
+            android:layout_height="81dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="37dp"
+            android:layout_marginRight="37dp"
+            android:text="JournalDev.com" />
+
+
+        <TextView
+            android:id="@+id/tvSubheading"
+            android:layout_width="381dp"
+            android:layout_height="76dp"
+            android:layout_below="@+id/tvHeading"
+            android:layout_marginTop="317dp"
+            android:text="Android Tutorials" />
+    </RelativeLayout>
+</layout>

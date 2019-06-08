@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "896226780841",
+    "firebase_url": "https://facerecognitionapp-e3adb.firebaseio.com",
+    "project_id": "facerecognitionapp-e3adb",
+    "storage_bucket": "facerecognitionapp-e3adb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896226780841:android:0f21d95a63865434",
+        "android_client_info": {
+          "package_name": "com.studycseathome.facerecognitionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896226780841-lhddncscds98c9bi7di32thpugtj93ne.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.studycseathome.facerecognitionapp",
+            "certificate_hash": "f5581fa82c1c42e9bddc7bf12fca6eaa25202ed3"
+          }
+        },
+        {
+          "client_id": "896226780841-of9ea8e7ui5vnptatf2kspuj0de2q1v9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrwNht6uzh2rZdlpv3JOpDZ3ad_AEYS5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896226780841-of9ea8e7ui5vnptatf2kspuj0de2q1v9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
